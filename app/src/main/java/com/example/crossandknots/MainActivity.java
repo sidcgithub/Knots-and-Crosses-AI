@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        count =0 ;
 
         position[0][0] = (ImageView) findViewById(R.id.i1);
         position[0][1] = (ImageView) findViewById(R.id.i2);
@@ -132,13 +133,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onResetClick(View view) {
         ttt.initBoard();
-        for (int i = 0; i < position.length; i++) {
-            for (int j = 0; j < position[i].length; j++) {
-
-                position[i][j].setImageResource(R.drawable.ic_launcher_background);
-
-            }
-        }
         recreate();
     }
 

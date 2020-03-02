@@ -16,7 +16,9 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/back"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,24 +29,21 @@
 
             <ImageView
                 android:id="@+id/i1"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/i2"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/i3"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -56,24 +55,21 @@
 
             <ImageView
                 android:id="@+id/i4"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/i5"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/i6"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -85,24 +81,21 @@
 
             <ImageView
                 android:id="@+id/i7"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/i8"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/i9"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
 
