@@ -1,4 +1,4 @@
-# CrossAndKnots
+# Knots and Crosses AI
 In this Cross and Knots(TicTacToe) game I experimented by developing an AI strategy from scratch. The algorithm proved effective.
 
 ## My Attempt at a TicTacToe AI
